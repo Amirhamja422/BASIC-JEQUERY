@@ -8,10 +8,7 @@
 </head>
 
 <body>
-  <?php
-
-  ?>
-
+      <p id ="demo"></p>
 
   <script>
     /*
@@ -60,11 +57,58 @@
     // for(let i of num){
     //   console.log ( i );
     // }
-   
+
+
+    /*
+       array map in  javascript that is used  create a new array
+     */
+    // let a = num.map((value,index,array)=>{
+    //   console.log (value,index,array);
+    //   return value+2;
+
+    // });
+
+    // console.log(a);
+
+    /*
+        array  filter 
+       array filter is used find out the value in the array`
+  
+     */
+
+      //1. const ages = [32, 33, 16, 40];
+
+      // document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+      //     function checkAdult(age) {
+      //          return age >= 18;
+      //     }
+
+
+
+    //2.  let array2 = num.filter((a)=>{
+    //   return a<7
+    //  })
+
+    //  document.getElementById("demo").innerHTML =array2;
+
+  
+
+        /*
+        array reduce method  to reduce values  to array
+     */
+
+    //  let array2 = num.reduce((a,b)=>{
+    //   return a+b;
+    //  })
+
+    //  console.log(array2);
+    
+
+
 
   </script>
 
-  <!-- <p id="demo"></p> -->
 
 </body>
 
