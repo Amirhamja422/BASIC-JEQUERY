@@ -7,9 +7,10 @@
 </head>
 <body>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+<div>
+  <p class="name">freeCodeCamp</p>
+  <button onclick="changeColor()">Change to Blue</button>
+</div>
 
 <!-- <p id="demo"></p> -->
 
